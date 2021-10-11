@@ -8,7 +8,7 @@ The goal of this script is to create a simple bot with ML features on Telegram u
 I am using tensorflow.keras to train the bot to recognize patterns of natural languge and predict the appropriate response.
 The code has comments to explain what each part does.
 
-If you want to use this script, you will need to copy 3 files from this repository. Work on the in this order:
+If you want to use this script, you will need to copy 3 files from this repository. You will work on them in this order:
 
 1. intents.json
 2. training.py
