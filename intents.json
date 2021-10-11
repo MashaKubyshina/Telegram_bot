@@ -1,0 +1,38 @@
+{"intents": [
+  {"tag": "greetings",
+  "patterns":  ["hello", "hey", "howdy", "good morning", "greetings", "how are you","hi", "hi there", "what's up", "how is it going?"],
+  "responses": ["Hello!", "Hey!", "Hi!", "What can I do for you?"]
+  },
+  {"tag": "goodbye",
+  "patterns":  ["cey", "bye", "goodbye", "have a good day", "I am done", "I am leaving"],
+  "responses": ["Goodbye!", "Talk to you later"]
+  },
+  {"tag": "about",
+  "patterns":  ["who are you", "what is 5per5", "what is your name", "What you do?", "do you have a name?"],
+  "responses": ["I am 5per5, a bot that helps your learn English words"]
+  },
+  {"tag": "help",
+  "patterns":  ["help", "help me", "need help", "I need help", "customer service", "customer rep"],
+  "responses": ["Type WORD to get an English word to learn, type CONTACT to send me an email"]
+  },
+  {"tag": "question",
+  "patterns":  ["ask me a question", "ask me something", "question for me", "do you have questions"],
+  "responses": ["What book are you reading right now?"]
+  },
+  {"tag": "talk",
+  "patterns":  ["talk to me", "say something", "conversation", "I want to talk", "chat", "can we chat"],
+  "responses": ["I am a bot in training. Try asking me something. If I am unable to help you, please type CONTACT and send feedback"]
+  },
+  {"tag": "contact",
+  "patterns":  ["contact", "customer support", "feedback", "owner", "message the owner", "botmaster", "send message"],
+  "responses": ["Thank you for using this bot. I am happy to get your feedback, please email me at info@bluewordai.com"]
+  },
+  {"tag": "how",
+  "patterns":  ["how can you teach me", "how do you work?", "how it works", "what is your program", "What can you do for me?","how do you teach?", "do you teach lessons?"],
+  "responses": ["Just type WORD or NEXT and I will send you an English word to learn"]
+  },
+  {"tag": "word",
+  "patterns":  ["word", "next word", "next", "more words", "lesson", "give me a word", "word to learn"],
+  "responses": ["Overflow", "Unlearn", "Smirk", "Tad","Aggrieved", "Baseline", "Bunch", "Mention", "Flip", "Agile"]
+  }
+]}
