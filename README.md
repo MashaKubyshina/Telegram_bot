@@ -8,13 +8,13 @@ The goal of this script is to create a simple bot with ML features on Telegram u
 I am using tensorflow.keras to train the bot to recognize patterns of natural languge and predict the appropriate response.
 The code has comments to explain what each part does.
 
-If you want to use this script, you will need to copy 3 files from this repository:
+If you want to use this script, you will need to copy 3 files from this repository. Work on the in this order:
 
--intents.json
--training.py
--chatbot_5per5_main.py
+1. intents.json
+2. training.py
+3. chatbot_5per5_main.py
 
--you will generate your own model.h5 once you run your training script.
+Note: you don't need to copy "chatbotmodel.h5" file, you will generate your own model.h5 once you run your training script.
 
 You will also need to create your own txt file named "token.txt" where you will paste the unique token you get from botfather.
 Here is the tutorial I used to create my bot on telegram https://www.youtube.com/watch?v=CNkiPN_WZfA. This tutorial walks you through token creation.
