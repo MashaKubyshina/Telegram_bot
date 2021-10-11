@@ -1,7 +1,7 @@
 # bot_test
 Telegram bot using python
 
-The goal of 5per5 bot is to help non-native English speakers to learn trendy words to use at job interviews. Currently the bot is still in making and learning.
+The goal of 5per5 bot is to help non-native English speakers learn trendy words to use at job interviews. Currently the bot is still in making and learning.
 I wanted to share this template script in case it might be helpful to others.
 
 The goal of this script is to create a simple bot with ML features on Telegram using python. 
